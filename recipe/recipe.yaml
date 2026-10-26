@@ -17,7 +17,7 @@ source:
     file_name: COPYING.yara
 
 build:
-  number: 0
+  number: 1
   script:
     # yara-python compiles its bundled libyara; enable the OpenSSL-backed features
     # (hash module, PE signatures) against conda-forge's openssl
